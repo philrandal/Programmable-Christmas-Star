@@ -42,3 +42,32 @@ You can follow the [tutorial on our website](https://www.modmypi.com/blog/christ
 This script allows you to command how the start glows from the command line over SSH. There are 4 built in modes (plus an off switch) to control the star with ease without having to climb the tree and attach a monitor each time.
 
 Let us know how you get on with the Star and we hope you have a Merry Christmas.
+
+### ajgbarnes addtions 
+
+
+* `cheerlights.py` - shows a fixed number of LEDs per cheerlights value based on a modulus of a decimal conversion of the hex colour value
+* `cheerlights_random.py` - shows a fixed number of random and pulsing LEDs based on a modulus of a decimal conversion of the hex colour value
+* `chasing.py` - shows a snake like moving line of LEDs moving around the star with the centre pulsing. Number of segments is configurable.
+* `chasing_advent.py` - shows a snake like moving line of LEDs moving around the star with the centre pulsing. Number of segments is based on the days of the month (max of 25). A Christmas Advent calendar.
+
+For the Cheerlights examples below you will need to do the following:
+```
+pip3 install paho-mqtt
+```
+
+To run the scripts:
+```
+python3 scriptname.py
+```
+
+To get the script to execute on boot: 
+```
+sudo nano /etc/rc.local 
+```
+
+And add the following before the `exit 0`:
+```
+python3 /path/to/script/scriptname.py
+```
+
