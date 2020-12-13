@@ -43,7 +43,7 @@ This script allows you to command how the start glows from the command line over
 
 Let us know how you get on with the Star and we hope you have a Merry Christmas.
 
-### ajgbarnes addtions 
+### SCRIPTS ajgbarnes additions 
 
 
 * `cheerlights.py` - shows a fixed number of LEDs per cheerlights value based on a modulus of a decimal conversion of the hex colour value
@@ -68,6 +68,6 @@ sudo nano /etc/rc.local
 
 And add the following before the `exit 0`:
 ```
-python3 /path/to/script/scriptname.py
+python3 /path/to/script/scriptname.py &
 ```
 
