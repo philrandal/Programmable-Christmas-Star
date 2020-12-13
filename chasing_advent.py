@@ -11,7 +11,6 @@ dt = datetime.datetime.today()
 length=25
 if(dt.day < 25):
     length=dt.day
-length=5
 start=0
 end=start+length-1
 on_brightness=0.5
