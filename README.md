@@ -63,6 +63,7 @@ python3 scriptname.py
 
 To get the script to execute on boot: 
 ```
+sudo pip3 install paho-mqtt
 sudo nano /etc/rc.local 
 ```
 
