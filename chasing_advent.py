@@ -20,6 +20,7 @@ off_brightness=0.0
 try:
     leds[0].pulse()
     while True:                
+        dt = datetime.datetime.today()
         if(dt.day != length and dt.day <= 25):
             length=dt.day
         for y in range(25):
