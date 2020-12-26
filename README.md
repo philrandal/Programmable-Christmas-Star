@@ -1,13 +1,21 @@
 # Programmable Christmas Tree Star
-![banner](https://github.com/modmypi/Programmable-Christmas-Star/blob/master/github_star.png)
+![banner](https://github.com/philrandal/Programmable-Christmas-Star/blob/master/github_star.png)
 
 Bring some Raspberry Pi based festive cheer to your Christmas this year with the ModMyPi [Christmas Star](https://www.modmypi.com/raspberry-pi-christmas-tree-star) and bring your tree to life!
+
+## Prerequisites
+
+Install python3-gpio
+
+```
+sudo apt install python3-gpio python3-pip
+```
 
 ## What's in this repository
 
 This repository should be used by cloning the repo first using
 
-`git clone https://github.com/modmypi/Programmable-Christmas-Star`
+`git clone https://github.com/philrandal/Programmable-Christmas-Star`
 
 Which will give you a copy locally.
 
