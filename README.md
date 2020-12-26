@@ -57,7 +57,7 @@ Let us know how you get on with the Star and we hope you have a Merry Christmas.
 
 ### SCRIPTS philrandal additions 
 
-* `track2.py` - altyernating forward and reverse tracks around the outside
+* `track2.py` - alternating forward and reverse tracks around the outside
 
 ### SCRIPTS ajgbarnes additions 
 
