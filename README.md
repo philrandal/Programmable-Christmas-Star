@@ -51,6 +51,10 @@ This script allows you to command how the start glows from the command line over
 
 Let us know how you get on with the Star and we hope you have a Merry Christmas.
 
+### SCRIPTS pezholio additions 
+
+* `track.py` - tracks around the outside
+
 ### SCRIPTS ajgbarnes additions 
 
 
