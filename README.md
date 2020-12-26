@@ -5,10 +5,10 @@ Bring some Raspberry Pi based festive cheer to your Christmas this year with the
 
 ## Prerequisites
 
-Install python3-gpio
+Install python3-gpiozero and python3-pip
 
 ```
-sudo apt install python3-gpio python3-pip
+sudo apt install python3-gpiozero python3-pip
 ```
 
 ## What's in this repository
